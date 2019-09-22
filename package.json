@@ -1,0 +1,16 @@
+{
+  "name": "ki1r0y-nouns",
+  "version": "0.0.1",
+  "description": "Basic rule-based machinery for constructing people, places, and things by identity.",
+  "main": "index.js",
+  "files": ["index.js", "spec/spec.js"],
+  "devDependencies": {
+      "ki1r0y-test": "^0.0.01"
+  },
+  "scripts": {
+      "build": "browserify index.js > browser.js",
+      "test": "ktest"
+  },
+  "author": "ki1r0y",
+  "license": "MIT"
+}
